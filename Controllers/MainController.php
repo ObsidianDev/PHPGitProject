@@ -1,7 +1,7 @@
 <?php
 	include_once("../Models/companyclass.php");
 	if (empty(session_id())) {
-		session_start(); //turn session up if it's down
+		session_start(); //turn session up if it isn't up yet
 	}
 	$outTabe='';
 	$varurl=$_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];

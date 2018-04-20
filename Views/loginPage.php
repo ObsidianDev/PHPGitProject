@@ -12,7 +12,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </head>
 <body>
-
+	<!-- login page with a login form -->
 	<h1 style="text-align: center;">Login</h1>
 	<div align="center" style="margin-top: 50px">
 		<form method="post">
@@ -21,7 +21,7 @@
 			<button type="submit" name="loginBut">Login</button>
 		</form>
 		<?php
-			echo $outTabe;
+			echo $outTabe; //variable generated in the constructor that retrieves error messages in case the username or password is incorrect
 		?>
 	</div>
 </body>
